@@ -49,7 +49,6 @@ closeBtn.addEventListener('click', closeLightbox);
 nextBtn.addEventListener('click', showNext);
 prevBtn.addEventListener('click', showPrev);
 
-// Optional: close on background click
 lightbox.addEventListener('click', (e) => {
   if (e.target === lightbox) closeLightbox();
 });
